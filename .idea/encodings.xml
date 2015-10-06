@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$USER_HOME$/Desktop/prueba/dsfasdfa/fidel/package.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gulpfile.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ionic.project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/package.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/game/game-ctrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/game/game.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/home/home.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/home/leagues-ctrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/home/leagues.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/home/my-teams-ctrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/home/myteams.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/layout/menu-layout.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/locations/locations-ctrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/locations/locations.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/services/eliteApi.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/services/myTeamsService.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/standings/standings-ctrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/standings/standings.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/teams/team-detail-ctrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/teams/team-detail.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/teams/teams-ctrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/teams/teams.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/menu.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/playlists.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/search.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ionicTabsApp/www/js/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ionicTabsApp/www/templates/tab-dash.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../ionic-classic-tabs/www/templates/tab-dash.html" charset="UTF-8" />
+  </component>
+</project>

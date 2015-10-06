@@ -1,0 +1,10 @@
+<ion-view view-title="" ng-controller="LocationCtrl">
+  <ion-content class="has-header">
+    <ion-list>
+       <ion-item class="item-icon-right" ng-repeat="location in locations">
+          {{location.name}}
+          <i class="icon ion-chevron-right icon-accessory"></i>
+       </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

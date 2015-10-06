@@ -1,0 +1,12 @@
+<ion-view view-title="Elite Schedule" ng-controller="LeaguesCtrl">
+  <ion-content class="has-header">
+    <ion-list>
+       <ion-item class="item-icon-right" ng-repeat="league in leagues" ng-click="selectLeague(league.id)">
+          {{league.name}}
+          <i class="icon ion-chevron-right icon-accessory"></i>
+       </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
+
+
