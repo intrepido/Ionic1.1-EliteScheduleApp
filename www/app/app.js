@@ -4,7 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('eliteApp', ['ionic', 'angular-cache'])
+angular.module('eliteApp', ['ionic', 'angular-cache', 'uiGmapgoogle-maps'])
 
   .run(function($ionicPlatform, CacheFactory) {
     $ionicPlatform.ready(function() {
@@ -18,15 +18,16 @@ angular.module('eliteApp', ['ionic', 'angular-cache'])
         // org.apache.cordova.statusbar required
         StatusBar.styleDefault();
       }
-      CacheFactory("leagueDataCache", { storageMode: "localStorage", maxAge: 360000, deleteOnExpire: "aggressive" });
-      CacheFactory("leaguesCache", { storageMode: "localStorage", maxAge: 360000, deleteOnExpire: "aggressive" });
-      CacheFactory("myTeamsCache", { storageMode: "localStorage" });
-      CacheFactory("staticCache", { storageMode: "localStorage" });
     });
+
+    CacheFactory("leagueDataCache", { storageMode: "localStorage", maxAge: 360000, deleteOnExpire: "aggressive" });
+    CacheFactory("leaguesCache", { storageMode: "localStorage", maxAge: 360000, deleteOnExpire: "aggressive" });
+    CacheFactory("myTeamsCache", { storageMode: "localStorage" });
+    CacheFactory("staticCache", { storageMode: "localStorage" });
   })
 
   .constant('ApiEndpoint', {
-    url: 'http://192.168.1.66:8100/api'
+    url: 'http://elite-schedule.net/api/leaguedata'
   })
 
   .config(function($httpProvider, $stateProvider, $urlRouterProvider) {
@@ -92,6 +93,7 @@ angular.module('eliteApp', ['ionic', 'angular-cache'])
         }
       })
       .state('app.locations', {
+        cache: false,
         url: "/locations",
         views: {
           'mainContent': {

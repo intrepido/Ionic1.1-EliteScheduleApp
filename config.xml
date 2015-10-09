@@ -2,10 +2,10 @@
 <widget id="com.ionicframework.elitescheduleapp940644" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>EliteScheduleApp</name>
   <description>
-        An Ionic Framework and Cordova project.
+      The Elite Schedule awesome app.
     </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+  <author email="in3pi287@gmail.com" href="http://ionicframework.com/">
+      Fidel Santana
     </author>
   <content src="index.html"/>
   <access origin="*"/>
@@ -39,4 +39,5 @@
     <splash src="resources/android/splash/drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
     <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
+  <access origin="geo:*" launch-external="yes"/>
 </widget>
